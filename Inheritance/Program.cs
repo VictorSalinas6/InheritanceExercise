@@ -29,11 +29,37 @@ namespace Inheritance
              * Creatively display the class member values 
              */
 
+            var bird = new Birds();
+            bird.Name = "Peregrine Falcon";
+            bird.Legs = 2;
+            bird.Noise = "kek-kek-kek";
+            bird.Class = "Aves";
+            bird.Beak = "sharp and hooked";
+            bird.Wings = "long and pointed";
+            bird.Eggs = "creamy or reddish-brown with darker markings";
+            bird.Feathers = "sleek and aerodynamic feathers";
+
+            bird.Presentation();
+
+
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Reptile class
              *  
              * Creatively display the class member values 
              */
+
+            var reptile = new Reptile();
+
+            reptile.Name = "King Cobra";
+            reptile.Legs = 0;
+            reptile.Noise = "Hisss";
+            reptile.Class = "Reptilia";
+            reptile.Scales = "generally olive to brown, with lighter or darker markings";
+            reptile.Eggs = "tough, with leathery shell";
+            reptile.Venomous = "is venomous";
+            reptile.Spectacle = "no spectacles";
+
+            reptile.Presentation();
         }
     }
 }
